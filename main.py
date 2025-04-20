@@ -98,7 +98,7 @@ letters = []
 guessed_letters = []
 for i in range(len(word)):
     letters.append(word[i])
-    guessed_letters.append('_')
+    guessed_letters.append('-')
 
 while True:
     print(f"-----------------------------[ Lives: {lives} ]-----------------------------")
@@ -129,4 +129,4 @@ while True:
         print(f"You lost! The word was: {word}")
         break
 
-input("Press Enter to exit...")
+input("\nPress Enter to exit...")
